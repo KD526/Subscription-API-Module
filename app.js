@@ -8,7 +8,7 @@ var usersRouter = require('./routes/users');
 
 ///express initialize
 const app = express();
-
+//set middlewares
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
