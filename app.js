@@ -8,6 +8,7 @@ app.get('/', (req, res) => {
     res.send('API tracker is set!')
 })
 
+//listen to server port
 app.listen(PORT, () => {
     console.log(`API tracker running on http://localhost:${PORT}`)
 })
