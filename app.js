@@ -1,7 +1,7 @@
 import express from 'express';
 
 import { PORT } from './config/env.js'
-
+//initialize express
 const app = express()
 
 app.get('/', (req, res) => {
