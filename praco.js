@@ -7,14 +7,13 @@ const mapNum = num.flatMap((x) => [x,x * 2])
 let sum = num.reduce(times)
 const small = num.filter(greater)
 const newNum = num.map(timesArray)
-let text = "";
+let text = 0;
 
 function output(str) {
     return str.split('').reverse().join('');
 }
 
  console.log(output(server))
-
 
  function reverse(arr1) {
    return arr1.reverse()
@@ -30,7 +29,7 @@ function output(str) {
 console.log(`the lowest value is ${num[0]}`)
  
 function addArray(value) {
-    text += value + 1 + "\n";
+    text += value;
 }
 
 function timesArray(value) {
