@@ -46,6 +46,7 @@ function greater(value) {
 }
 
 num.forEach(addArray);
+console.log(num);
 console.log(text)
 console.log(newNum)
 console.log(small)
