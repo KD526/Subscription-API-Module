@@ -23,8 +23,7 @@ function output(str) {
  console.log( arr)
 
  function sortNum() {
-    num.sort(function(a,b){return (a-b)})
- }
+num.sort(function(a,b){return a-b})}
  sortNum()
 console.log(`the lowest value is ${num[0]}`)
  
