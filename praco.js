@@ -75,14 +75,14 @@ for (let i = 0; i < old_arr.length; i++ ) {
 
 const someArr = [];
 
-for (let i = 0; i < 100; i++) {
-    let k = Math.floor(Math.random() * 101)
+for (let i = 0; i < 10; i++) {
+    let k = Math.floor(Math.random() * 11)
 
     someArr[i] = k;
 }
-//console.log(someArr);
+console.log(someArr);
 //console.log(strng);
-// console.log(getRandom())
+ console.log(getRandom())
 // num.forEach(addArray);
 // console.log(num);
 // console.log(text)
