@@ -5,7 +5,7 @@ import authRouter from './routes/auth.routes.js'
 import subscriptionRouter from './routes/subscription.routes.js';
 import { url } from 'url'
 
-const webUrl = url()
+const webUrl = url() //use to call http url data
 
 //initialize express
 const app = express()
