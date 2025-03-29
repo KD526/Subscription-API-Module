@@ -6,7 +6,7 @@ import subscriptionRouter from './routes/subscription.routes.js';
 import { url } from 'url'
 
 const webUrl = url() //use to call http url data
-
+const data = webUrl.get()
 //initialize express
 const app = express()
 //middleware
