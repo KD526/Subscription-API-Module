@@ -7,6 +7,7 @@ import { url } from 'url'
 
 const webUrl = url() //use to call http url data
 const data = webUrl.get()
+console.log(data)
 //initialize express
 const app = express()
 //middleware
