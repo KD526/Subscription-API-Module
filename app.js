@@ -10,6 +10,7 @@ const data = webUrl.get()
 console.log(data)
 //initialize express
 const app = express()
+
 //middleware
 app.use('/api/v1/users', userRouter)
 app.use('api/v1/auth', authRouter)
